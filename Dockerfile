@@ -1,5 +1,5 @@
 FROM jboss/wildfly
-ADD /target/rajju.war /opt/jboss/wildfly/standalone/deployments/
+ADD /target/**.war /opt/jboss/wildfly/standalone/deployments/
 
  
 
